@@ -1,0 +1,208 @@
+.navigation, .languages {
+    margin-top: 1em;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 1.7em;
+    z-index: 10;
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+.callme {
+    font-size: 15px;
+    line-height: 1.7em;
+    z-index: 10;
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+.callme a:hover {
+   background-color: #CEB38A; 
+}
+.navigation {
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+strong {
+    font-weight: bold;
+}
+.about_me a:hover {
+    background-color: #CEB38A;
+}
+.resume a:hover {
+    background-color: #CEB38A;
+}
+.linkedIn a:hover {
+    background-color: #CEB38A;
+}
+.CADS a:hover {
+    background-color: #CEB38A;
+}
+.languages a:hover {
+    text-decoration: overline;
+}
+.side_bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    padding: 35px 35px 100px 35px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #000;
+    font-size: 16px ;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    width: 220px;
+    z-index: 999;
+    min-width: 220px; 
+    background-color: white;
+}
+
+.header {
+    display: inline-block;
+    clear: both;
+    width: 220px;
+}
+
+.header a {
+    padding: 2px;
+    /*background-color: #CEB38A;*/
+    color: black;
+    font-family: serif;
+    letter-spacing: 1px;
+}
+.header a:hover {
+    background-color: #CEB38A;
+}
+.logo {
+    width: 160px;
+    height: auto;
+}
+.logo_container {
+    padding-bottom: 45px;
+    margin-left: 1px
+}
+em {
+    font-family: serif;
+}
+.wrapper {
+    width: 100%;
+    clear: both;
+}
+.thumbnail_image {
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.thumbnail_tag {
+    line-height: 18px;
+    font-size: 12px;
+    font-family: serif;
+    font-weight: normal;
+    color: #221B17;
+    max-width: 395px;
+    width: 100%;
+    padding-top: 8px;
+}
+.tm_xl1,
+.tm_windex,
+.tm_wendys,
+.tm_breathe,
+.tm_id,
+.tm_lamer,
+.tm_graphicdesigns,
+.tm_webdesigns {
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* upper all are basic side bar in every page free to copy */
+
+.portfolio_container {
+    background-color: white;
+    left: 400px;
+    position: absolute;
+    padding: 35px 35px 100px 0px;
+    max-width: 1120px;
+}
+.row1, 
+.row2, 
+.row3, 
+.row4 {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 2%;
+    min-width: 440px;
+    max-width: 790px;
+    display: block;
+}
+.xl1,
+.windex, 
+.wendys, 
+.breathe_right, 
+.id_thief, 
+.lamer, 
+.web_designs, 
+.graphic_designs {
+    width: 48%;
+    background-color: white;
+    float: left;
+    margin-right: 2%;
+    max-width: 395px;
+}
+.toTop:hover {
+    bottom: 55px;
+}
+.toTop a {
+    color: #B99762;
+}
+.toTop {
+    position: fixed;
+    transform: rotate(90deg);
+    font-family: serif;
+    width: 88px;
+    font-size: 15px;
+    right: 0px;
+    bottom: 5%;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 1px;
+}
+.toTopArrow {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.lastest {
+    margin-top: 1em;
+    padding-top: 20px;
+    font-size: 10px;
+    line-height: 1.7em;
+    z-index: 10;
+    font-family: serif;
+    font-weight: 400;
+    color: gray;
+}
