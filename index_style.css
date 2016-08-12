@@ -96,6 +96,21 @@ em {
     width: 100%;
     clear: both;
 }
+
+
+
+
+
+
+/* side_bar must apply in all pages*/
+
+
+
+
+
+
+
+
 .thumbnail_image {
     font-size: 0;
     line-height: 0;
@@ -119,6 +134,7 @@ em {
     padding-top: 8px;
 }
 .tm_xl1,
+.tm_WOD,
 .tm_windex,
 .tm_wendys,
 .tm_breathe,
@@ -162,6 +178,7 @@ em {
 .windex, 
 .wendys, 
 .breathe_right, 
+.world_ocean_day,
 .id_thief, 
 .lamer, 
 .web_designs, 
@@ -196,6 +213,7 @@ em {
     font-weight: 100;
 }
 
+.lastest a,
 .lastest {
     margin-top: 1em;
     padding-top: 20px;
@@ -205,4 +223,10 @@ em {
     font-family: serif;
     font-weight: 400;
     color: gray;
+}
+.lastest a {
+    text-decoration: underline;
+}
+.lastest a:hover {
+    color: red;
 }

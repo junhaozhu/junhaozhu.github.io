@@ -17,11 +17,11 @@ $(".tm_wendys").mouseenter(function() {
    $(".tm_wendys").mouseleave(function() {
        $(".tm_wendys").attr('src', 'images/wendys_395*640.jpg');
      });
-$(".tm_breathe").mouseenter(function() {
-       $(".tm_breathe").attr('src', 'images/breathe_hover_395*640.jpg');
+$(".tm_WOD").mouseenter(function() {
+       $(".tm_WOD").attr('src', 'images/world_ocean_day_hover_395*640.jpg');
      });
-   $(".tm_breathe").mouseleave(function() {
-       $(".tm_breathe").attr('src', 'images/breathe_395*640.jpg');
+   $(".tm_WOD").mouseleave(function() {
+       $(".tm_WOD").attr('src', 'images/world_ocean_day_395*640.jpg');
      });
 $(".tm_id").mouseenter(function() {
        $(".tm_id").attr('src', 'images/idthief_hover_395*640.jpg');
