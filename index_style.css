@@ -156,7 +156,7 @@ em {
 
 .portfolio_container {
     background-color: white;
-    left: 400px;
+    left: 300px;
     position: absolute;
     padding: 35px 35px 100px 0px;
     max-width: 1120px;
@@ -170,7 +170,7 @@ em {
     padding: 0px;
     margin: 0px;
     margin-bottom: 2%;
-    min-width: 440px;
+    min-width: 220px;
     max-width: 790px;
     display: block;
 }
