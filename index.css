@@ -26,11 +26,18 @@ a {
 .sidebar {
     position: fixed;
     width: 175px;
-    margin-top: 220px;
     color: #545454;
     text-align: right;
     font-size: 13pt;
     margin-right: 50px;
+}
+.sidebar_logo {
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 76px;
+    margin-bottom: 60px;
 }
 .sidebar_header {
     font-weight: bold;
@@ -38,6 +45,7 @@ a {
 }
 .nav :hover {
     text-decoration: underline;
+    color: #BC9F70;
 }
 .nav {
     font-weight: lighter;
@@ -112,6 +120,19 @@ a {
 .thumb {
     width: 100%;
 }
+.thumbnailPlus {
+    background-color: white;
+    width: 320px;
+    height: 370px;
+    margin: 8px 8px 0px;
+}
+
+.thumbnailPlus :hover {
+    text-decoration: underline;
+    color: #DA0000;
+}
+
+
 
 /* ---------resume--------- */
 
@@ -135,6 +156,8 @@ a {
 .resume_pdf {
     text-decoration: underline;
 }
+
+
 
 /* ---------about--------- */
 
@@ -161,6 +184,8 @@ a {
     line-height: 24px;
     width: 434px;
 }
+
+
 
 /* ---------works--------- */
 .work_wrapper {
@@ -219,6 +244,7 @@ a {
     width: 215px;
     margin-right: 8px;
 }
+
 
 /* 500px mobile*/
 @media screen and (max-width: 500px){
