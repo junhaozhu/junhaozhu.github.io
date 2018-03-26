@@ -125,6 +125,7 @@ a {
     width: 320px;
     height: 370px;
     margin: 8px 8px 0px;
+    font-size: 13pt;
 }
 
 .thumbnailPlus :hover {
