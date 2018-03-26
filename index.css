@@ -130,6 +130,7 @@ a {
 .thumbnailPlus :hover {
     text-decoration: underline;
     color: #DA0000;
+    font-size: 13pt;
 }
 
 
